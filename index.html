@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ResumeATS Check (validating demand) — see your resume the way an ATS reads it, locally in your browser</title>
+<meta name="description" content="A one-time-purchase tool ($19) that runs entirely in your browser: upload your resume PDF, paste the job description, and get the machine-readable text order, 12 layout risk checks, and JD keyword coverage with a 0–100 score. Built and tested, not yet on sale — this page only collects interest registrations.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ResumeATS Check (validating demand)">
+<meta property="og:description" content="See your resume the way an ATS reads it — before you apply. Local-only parsing, no upload, one-time $19. Register interest; launches only if demand clears.">
+<meta property="og:url" content="https://alapha888.github.io/resume-ats-waitlist/">
+<link rel="canonical" href="https://alapha888.github.io/resume-ats-waitlist/">
+<style>
+  body{font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:720px;margin:0 auto;padding:32px 20px 64px;line-height:1.7;color:#1a1a1a;background:#fff}
+  h1{font-size:28px;line-height:1.35;margin:8px 0 12px}
+  h2{font-size:19px;margin:32px 0 8px}
+  .badge{display:inline-block;background:#eef4fd;color:#1d4fa3;border:1px solid #c9dcf5;border-radius:999px;padding:2px 12px;font-size:13px}
+  .lead{font-size:17px;color:#333}
+  ul{padding-left:22px}
+  .card{border:1px solid #e3e3e3;border-radius:10px;padding:16px 18px;margin:14px 0;background:#fafafa}
+  .price{font-size:22px;font-weight:700}
+  .btn{display:inline-block;background:#1d4fa3;color:#fff;text-decoration:none;border-radius:8px;padding:10px 22px;font-weight:600;margin-top:8px}
+  .note{color:#666;font-size:14px}
+  footer{margin-top:48px;color:#888;font-size:13px;border-top:1px solid #eee;padding-top:14px}
+</style>
+</head>
+<body>
+<span class="badge">Demand validation · Register interest — launches only if demand clears</span>
+<h1>ResumeATS Check: see your resume the way an ATS reads it — before you apply</h1>
+<p class="lead">A one-time-purchase tool ($19) that runs entirely in your browser: drop in your resume PDF, paste the job description, and get the machine-readable text order, 12 layout risk checks, and JD keyword coverage with a 0–100 score. <strong>The MVP is built and tested; it is not on sale yet.</strong> This page answers one question: at $19 one-time, is it worth launching.</p>
+
+<h2>Why validate first</h2>
+<ul>
+  <li>The incumbent, Jobscan, charges $49.95/month; its free tier caps at 5 scans per month — run out and you hit a paywall. Other free web checkers require uploading your resume to their servers.</li>
+  <li>This tool parses <strong>locally in your browser</strong>: your resume file never leaves your machine, and there is no server, no tracking, no analytics. One-time $19 instead of a subscription targets the occasional job seeker — someone who job-hunts once or twice a year and does not want another monthly bill.</li>
+  <li>Honest limitation, stated up front: <strong>the checks are heuristic rules and have not been validated against real ATS systems.</strong> They estimate formatting risk; they do not guarantee any real system's verdict. If you need a certified ATS verdict, this tool is not it.</li>
+</ul>
+
+<h2>What it checks (built, tested, not yet for sale)</h2>
+<ul>
+  <li><strong>Machine-readable text order view</strong> — what a parser actually sees when it reads your PDF</li>
+  <li><strong>12 layout risk checks</strong>, graded pass / warn / fail with severity P0 (critical) / P1 (likely problem) / P2 (minor): multi-column layout, table-like alignment, contact info in the header/footer zone, non-standard section headings, too many fonts, low readable-text coverage / scanned pages, PDF reading-order mismatch, decorative characters, inconsistent date formats, unexpanded abbreviations, images combined with little text, missing machine-readable contact info</li>
+  <li><strong>JD keyword coverage</strong> — paste the job description to see which keywords appear and which are missing; 0–100 score with severity-weighted deductions</li>
+</ul>
+<p class="note">Tested in headless Chromium on two synthetic resumes: a clean single-column resume scored 91 ("Good"); a two-column, table-heavy resume with header contact info scored 63 ("Needs work") with the expected checks firing. Two scan-related checks are implemented but unverified by synthetic fixtures — disclosed in the tool itself.</p>
+
+<h2>Who it's for</h2>
+<ul>
+  <li>Job seekers applying through online portals who want a quick pre-submit sanity check on formatting</li>
+  <li>People uncomfortable uploading their resume to a third-party server</li>
+  <li>If Jobscan's free 5 scans/month or a free web checker is enough for you — use those first</li>
+</ul>
+
+<div class="card">
+  <div class="note">Intended price (not a sale price — not on sale, no payment, no pre-order)</div>
+  <div class="price">$19 one-time</div>
+  <p style="margin:6px 0 0">Registration just sends an email — no payment, no commitment, no purchase obligation. Please include: your resume format (PDF / Word / other), your biggest ATS worry (parsing / keywords / formatting), roughly how many jobs you apply to per year, and whether you would pay $19 one-time. These answers decide whether it launches.</p>
+  <a class="btn" href="mailto:alapha888@gmail.com?subject=%5BResumeATS%20Check%5D%20Notify%20me%20on%20launch&body=I%20want%20to%20be%20notified%20when%20ResumeATS%20Check%20launches.%0AMy%20resume%20format%20%28PDF%20%2F%20Word%20%2F%20other%29%3A%20%0AMy%20biggest%20ATS%20worry%20%28parsing%20%2F%20keywords%20%2F%20formatting%29%3A%20%0ARoughly%20how%20many%20jobs%20I%20apply%20to%20per%20year%3A%20%0AWould%20you%20pay%20%2419%20one-time%3A%20Yes%20%2F%20No%20%2F%20Depends%20on%20the%20demo%3A">Register interest (sends an email)</a>
+  <p class="note">Not on sale. If 10+ people register by 2026-10-29, it launches on Gumroad at $19 one-time and every registrant gets notified. Fewer than 5 → this line is shelved and registrants get a cancellation email. Price and threshold are validation parameters, not a market conclusion.</p>
+</div>
+
+<h2>FAQ</h2>
+<p><strong>Can I buy it now?</strong><br>No. It's built but not on sale; this page is all there is.</p>
+<p><strong>Does registering obligate me to buy?</strong><br>No. Registration only means "notify me when it launches"; you decide after seeing the finished product.</p>
+<p><strong>Why not just use a free checker?</strong><br>Free tools upload your resume to their servers and cap free scans; this one parses locally with a one-time price. If free is enough for you, stay free.</p>
+<p><strong>Has it been tested against real ATS systems?</strong><br>No. The checks are heuristic rules estimating formatting risk — the tool states this limitation itself.</p>
+
+<footer>ResumeATS Check demand-validation page · Contact only via the structured email button above · This page collects no other information</footer>
+</body>
+</html>
